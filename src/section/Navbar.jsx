@@ -32,7 +32,7 @@ const Navbar = ()=> {
                     onClick={() => setOpen(!isOpen)}
                     >
                      <img 
-                     src={isOpen ? "public/assets/close.svg" : "/public/assets/menu.svg"} alt=""
+                     src={isOpen ? `${import.meta.env.BASE_URL}assets/close.svg` : `${import.meta.env.BASE_URL}assets/menu.svg`} alt=""
                      className="w-6 h-6"/>
                     </button>
                     <div className="hidden sm:flex">

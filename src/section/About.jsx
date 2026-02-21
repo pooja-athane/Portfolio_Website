@@ -29,15 +29,15 @@ const About = () => {
             style: { rotate: "20deg", top: "10%", left: "38%" }
         },
         {
-            image: "assets/logos/csharp-pink.png",
+            image: `${import.meta.env.BASE_URL}assets/logos/csharp-pink.png`,
             style: { rotate: "30deg", top: "70%", left: "70%" }
         },
         {
-            image: "assets/logos/dotnet-pink.png",
+            image: `${import.meta.env.BASE_URL}assets/logos/dotnet-pink.png`,
             style: { rotate: "-45deg", top: "70%", left: "25%" }
         },
         {
-            image: "assets/logos/blazor-pink.png",
+            image: `${import.meta.env.BASE_URL}assets/logos/blazor-pink.png`,
             style: { rotate: "-45deg", top: "5%", left: "10%" }
         }
     ]
@@ -51,7 +51,7 @@ const About = () => {
                 <div className="flex items-end grid-default-color grid-1">
 
                     <img
-                        src='public/assets/coding-pov.png'
+                        src={`${import.meta.env.BASE_URL}assets/coding-pov.png`}
                         alt='coding-img'
                         className='absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]'
                     />
