@@ -14,7 +14,7 @@ const Hero = () => {
         maxWidth: 853
     })
     return (
-        <section className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space">
+        <section className=" flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space">
             <HeroText />
             <ParallexBackground />
             <figure
@@ -31,13 +31,13 @@ const Hero = () => {
                     }}
                 >
                     <Suspense fallback={<Loader />}>
-                        <Float></Float>
+                        <Float>
+                            <Astronaut
+                                scale={isMobile && 0.23}
+                                position={isMobile && [0, -1.5, 0]}
+                            />
+                        </Float>
                     </Suspense>
-                    <Astronaut
-                        scale={isMobile && 0.23}
-                        position={isMobile && [0, -1.5, 0]}
-
-                    />
                 </Canvas>
             </figure>
 

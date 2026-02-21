@@ -1,6 +1,6 @@
 import React from 'react'
 import { FlipWords } from './FlipWords'
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 
 const HeroText = () => {
 
@@ -20,11 +20,11 @@ const HeroText = () => {
 
     return (
         //mobile view  also responsive code
-        <div className='z-10 mt-20 text-center md:mt-40 md:text-left rounded-3xl bg-clip-text '>
+        <div className=' relative z-10 mt-20 text-center md:mt-40 md:text-left rounded-3xl bg-clip-text '>
 
             {/* desktop view */}
 
-            <div className="flex-col hidden md:flex c-space">
+            <div className="relative flex-col hidden md:flex c-space">
                 <motion.h1
                     className='text-4xl font-medium  text-neutral-300'
                     variants={Variants}
@@ -34,7 +34,7 @@ const HeroText = () => {
                 >
                     Hii i am Pooja
                 </motion.h1>
-                <div className="flex flex-col items-start">
+                <div className="relative flex flex-col items-start">
                     <motion.p
                         className='text-5xl font-medium text-neutral-300'
                         variants={Variants}
@@ -47,7 +47,7 @@ const HeroText = () => {
 
                     {/* Animated words */}
                     <motion.div
-                        className=""
+                        className="relative"
                         variants={Variants}
                         initial="hidden"
                         animate="visible"

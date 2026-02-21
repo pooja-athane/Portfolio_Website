@@ -1,13 +1,13 @@
-import { Progress, useProgress } from "@react-three/drei"
-import { html } from "framer-motion/client";
+import { Html, useProgress } from "@react-three/drei"
 
 const Loader = ()=>{
     const {progress} = useProgress();
     return(
-        <html center className="text-xl font-normal-text-center">
-            
-            {progress}% Loading
-        </html>
+        <Html center>
+            <div className="text-xl font-normal text-center text-white">
+                {progress.toFixed(2)}% Loading
+            </div>
+        </Html>
     )
 }
 export default Loader
