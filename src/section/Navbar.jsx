@@ -28,7 +28,7 @@ const Navbar = ()=> {
             <div className="mx-auto c-space max-w-7xl">
                 <div className="flex items-center justify-between py-2 sm:6">
                     <a href="" className="text-xl font-bold transition-colors text-neutral-400 hover:text-white">Pooja Athane</a>
-                    <button className="flex cursor-pointer text-neutral-400 hover:text-wgite focus:outline-none sm:hidden"
+                    <button className="flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden"
                     onClick={() => setOpen(!isOpen)}
                     >
                      <img 

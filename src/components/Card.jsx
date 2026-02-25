@@ -7,10 +7,11 @@ const Card = ({
     image,
     containerRef
 }) => {
+    
     return image && !text ? (
         <motion.img
-            src={image}
-            className='absolute w-15 cursor-grab'
+    src={image}
+    className='absolute w-24 md:w-32 lg:w-36 cursor-grab drop-shadow-2xl'
             style={style}
             whileHover={{
                 scale: 1.05

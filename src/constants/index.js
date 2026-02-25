@@ -1,227 +1,227 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Gmail Clone",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "A frontend Gmail UI clone built using React and Tailwind CSS.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Implemented email list UI and sidebar layout.",
+      "Added search functionality using React state.",
+      "Created reusable components structure.",
+      "Fully responsive design."
     ],
-    href: "",
+    href: " https://pooja-athane.github.io/Portfolio_Website/",
     logo: "",
-    image: "public/assets/projects/accessories.jpg",
+    image: "public/assets/projects/gmail.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "public/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "public/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "public/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "public/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
-    subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "public/assets/projects/auth-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "public/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
         name: "React",
         path: "public/assets/logos/react.svg",
       },
       {
-        id: 3,
-        name: "SQLite",
-        path: "public/assets/logos/sqlite.svg",
+        id: 2,
+        name: "JavaScript",
+        path: "public/assets/logos/javascript.svg",
       },
       {
-        id: 4,
+        id: 3,
         name: "TailwindCSS",
         path: "public/assets/logos/tailwindcss.svg",
       },
+      
     ],
   },
   {
-    id: 3,
-    title: "Blazor Web App",
+    id: 2,
+    title:"Portfolio Website" ,
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A modern 3D portfolio built with React, Three.js and Tailwind CSS.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Designed responsive UI with Tailwind CSS.",
+      "Integrated 3D models using Three.js.",
+      "Added smooth animations with GSAP.",
+      "Deployed using Vercel."
     ],
     href: "",
     logo: "",
-    image: "public/assets/projects/blazor-app.jpg",
+    image: "public/assets/projects/Portfolio.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "public/assets/logos/blazor.svg",
+        name: "React",
+        path: "public/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "public/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "public/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
+        name: "Tailwind",
         path: "public/assets/logos/tailwindcss.svg",
       },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "public/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "public/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "public/assets/logos/csharp.svg",
-      },
       {
         id: 3,
-        name: "Git",
-        path: "public/assets/logos/git.svg",
+        name: "Three.js",
+        path: "public/assets/logos/threejs.svg",
       },
       {
         id: 4,
-        name: "Microsoft",
-        path: "public/assets/logos/microsoft.svg",
+        name: "GSAP",
+        path: "public/assets/logos/gsap.svg",
       },
     ],
   },
   {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "public/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "public/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "public/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "public/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "public/assets/logos/vitejs.svg",
-      },
-    ],
-  },
+  id: 3,
+  title: "Sundown Studio – Animated Landing Page",
+  description:
+    "An animation-intensive interactive landing page inspired by Sundown Studio, featuring dynamic hover previews, custom loader animations, and scroll-based UI effects.",
+  subDescription: [
+    "Built dynamic hover-based image preview using data attributes and DOM manipulation.",
+    "Implemented custom animated loader with staggered text transitions.",
+    "Created infinite marquee scrolling text using CSS keyframes.",
+    "Designed animated hero gradient shapes and full-screen mobile navigation toggle.",
+    "Integrated GSAP and ScrollTrigger for smooth scroll-driven animations.",
+  ],
+  href: " https://pooja-athane.github.io/Sundown_Website/",
+  logo: "",
+  image: "public/assets/projects/Sundown.png", 
+  tags: [
+    {
+      id: 1,
+      name: "HTML5",
+      path: "public/assets/logos/html5.svg",
+    },
+    {
+      id: 2,
+      name: "CSS3",
+      path: "public/assets/logos/css3.svg",
+    },
+    {
+      id: 3,
+      name: "JavaScript",
+      path: "public/assets/logos/javascript.svg",
+    },
+    {
+      id: 4,
+      name: "GSAP",
+      path: "public/assets/logos/gsap.svg",
+    },
+  ],
+},
+  
   {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "public/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "public/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "public/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "public/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "public/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-];
+  id: 4,
+  title: "Interactive Portfolio Recreation (Cynthia Ugwu Inspired)",
+  description:
+    "A recreation of a modern designer portfolio inspired by Cynthia Ugwu, built to practice advanced GSAP animations, smooth scrolling, and interactive hover effects.",
+  subDescription: [
+    "Integrated Locomotive Scroll for smooth scrolling experience.",
+    "Built GSAP timeline-based intro animations with staggered text reveals.",
+    "Developed interactive hover image previews with dynamic rotation effects.",
+    "Implemented custom cursor tracking using JavaScript.",
+    "Created infinite marquee logo slider using CSS keyframe animations."
+  ],
+  href: "https://pooja-athane.github.io/Project-1-landing-pages/", 
+  logo: "",
+  image: "public/assets/projects/ughvu.png", 
+  tags: [
+    {
+      id: 1,
+      name: "HTML5",
+      path: "public/assets/logos/html5.svg",
+    },
+    {
+      id: 2,
+      name: "CSS3",
+      path: "public/assets/logos/css3.svg",
+    },
+    {
+      id: 3,
+      name: "JavaScript",
+      path: "public/assets/logos/javascript.svg",
+    },
+    {
+      id: 4,
+      name: "GSAP",
+      path: "public/assets/logos/gsap.svg",
+    },
+  ],
+},
+  
+
+  {
+  id: 5,
+  title: "Zentry Clone – Animated Hero Experience",
+  description:
+    "A visually immersive gaming-style landing page inspired by Zentry, featuring cinematic background videos, bold typography, and scroll-driven animations.",
+  subDescription: [
+    "Implemented dynamic hero video switching using JavaScript event handling and array index logic.",
+    "Designed full-screen responsive layout using Flexbox and CSS Grid.",
+    "Created animated gradient typography and blur-based scroll effects.",
+    "Built interactive UI elements including hover transitions and circular navigation button.",
+    "Optimized structure for smooth performance and clean component organization."
+  ],
+  href: "https://pooja-athane.github.io/project-3-landing-page/",
+  logo: "",
+  image: "public/assets/projects/zentry.png",
+  tags: [
+    {
+      id: 1,
+      name: "HTML5",
+      path: "public/assets/logos/html5.svg",
+    },
+    {
+      id: 2,
+      name: "CSS3",
+      path: "public/assets/logos/css3.svg",
+    },
+    {
+      id: 3,
+      name: "JavaScript",
+      path: "public/assets/logos/javascript.svg",
+    }
+  ],
+},
+{
+  id: 5,
+  title: "Cyberfiction Inspired Scroll-Driven Canvas Experience",
+  description:
+    "A cinematic scroll-based web experience inspired by Cyberfiction, featuring a 300-frame image sequence rendered on HTML5 canvas and synchronized with smooth scrolling animations.",
+  subDescription: [
+    "Integrated Locomotive Scroll with GSAP ScrollTrigger for smooth scroll control.",
+    "Built a 300-frame image sequence animation rendered dynamically on canvas.",
+    "Implemented scroll-scrub animation synchronized with user scroll position.",
+    "Pinned full-screen sections to create immersive storytelling.",
+    "Optimized responsive canvas scaling and rendering performance."
+  ],
+  href: " https://pooja-athane.github.io/project-2-landinng-page/",
+  logo: "",
+  image: "public/assets/projects/cyberification.png",
+ 
+   tags: [
+    {
+      id: 1,
+      name: "HTML5",
+      path: "public/assets/logos/html5.svg",
+    },
+    {
+      id: 2,
+      name: "CSS3",
+      path: "public/assets/logos/css3.svg",
+    },
+    {
+      id: 3,
+      name: "JavaScript",
+      path: "public/assets/logos/javascript.svg",
+    },
+    {
+      id: 4,
+      name: "GSAP",
+      path: "public/assets/logos/gsap.svg",
+    },
+  ],
+  
+},
+]
 
 
 export const experiences = [
