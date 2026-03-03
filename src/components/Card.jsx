@@ -10,7 +10,7 @@ const Card = ({
     
     return image && !text ? (
         <motion.img
-    src={image}
+    src={`${import.meta.env.BASE_URL}${image}`}
     className='absolute w-24 md:w-32 lg:w-36 cursor-grab drop-shadow-2xl'
             style={style}
             whileHover={{

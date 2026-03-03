@@ -12,22 +12,22 @@ export const myProjects = [
     ],
     href: "https://gmail-clone-woad-two.vercel.app",
     logo: "",
-    image: "public/assets/projects/gmail.png",
+    image: "assets/projects/gmail.png",
     tags: [
       {
         id: 1,
         name: "React",
-        path: "public/assets/logos/react.svg",
+        path: "assets/logos/react.svg",
       },
       {
         id: 2,
         name: "JavaScript",
-        path: "public/assets/logos/javascript.svg",
+        path: "assets/logos/javascript.svg",
       },
       {
         id: 3,
         name: "TailwindCSS",
-        path: "public/assets/logos/tailwindcss.svg",
+        path: "assets/logos/tailwindcss.svg",
       },
       
     ],
@@ -45,27 +45,27 @@ export const myProjects = [
     ],
     href: "https://portfolio-website-eight-rho-30.vercel.app",
     logo: "",
-    image: "public/assets/projects/Portfolio.png",
+    image: "assets/projects/Portfolio.png",
     tags: [
       {
         id: 1,
         name: "React",
-        path: "public/assets/logos/react.svg",
+        path: "assets/logos/react.svg",
       },
       {
         id: 2,
         name: "Tailwind",
-        path: "public/assets/logos/tailwindcss.svg",
+        path: "assets/logos/tailwindcss.svg",
       },
       {
         id: 3,
         name: "Three.js",
-        path: "public/assets/logos/threejs.svg",
+        path: "assets/logos/threejs.svg",
       },
       {
         id: 4,
         name: "GSAP",
-        path: "public/assets/logos/gsap.svg",
+        path: "assets/logos/gsap.svg",
       },
     ],
   },
@@ -83,27 +83,27 @@ export const myProjects = [
   ],
   href: " https://pooja-athane.github.io/Sundown_Website/",
   logo: "",
-  image: "public/assets/projects/Sundown.png", 
+  image: "assets/projects/Sundown.png", 
   tags: [
     {
       id: 1,
       name: "HTML5",
-      path: "public/assets/logos/html5.svg",
+      path: "assets/logos/html5.svg",
     },
     {
       id: 2,
       name: "CSS3",
-      path: "public/assets/logos/css3.svg",
+      path: "assets/logos/css3.svg",
     },
     {
       id: 3,
       name: "JavaScript",
-      path: "public/assets/logos/javascript.svg",
+      path: "assets/logos/javascript.svg",
     },
     {
       id: 4,
       name: "GSAP",
-      path: "public/assets/logos/gsap.svg",
+      path: "assets/logos/gsap.svg",
     },
   ],
 },
@@ -122,27 +122,27 @@ export const myProjects = [
   ],
   href: "https://pooja-athane.github.io/Project-1-landing-pages/", 
   logo: "",
-  image: "public/assets/projects/ughvu.png", 
+  image: "assets/projects/ughvu.png", 
   tags: [
     {
       id: 1,
       name: "HTML5",
-      path: "public/assets/logos/html5.svg",
+      path: "assets/logos/html5.svg",
     },
     {
       id: 2,
       name: "CSS3",
-      path: "public/assets/logos/css3.svg",
+      path: "assets/logos/css3.svg",
     },
     {
       id: 3,
       name: "JavaScript",
-      path: "public/assets/logos/javascript.svg",
+      path: "assets/logos/javascript.svg",
     },
     {
       id: 4,
       name: "GSAP",
-      path: "public/assets/logos/gsap.svg",
+      path: "assets/logos/gsap.svg",
     },
   ],
 },
@@ -162,27 +162,27 @@ export const myProjects = [
   ],
   href: "https://pooja-athane.github.io/project-3-landing-page/",
   logo: "",
-  image: "public/assets/projects/zentry.png",
+  image: "assets/projects/zentry.png",
   tags: [
     {
       id: 1,
       name: "HTML5",
-      path: "public/assets/logos/html5.svg",
+      path: "assets/logos/html5.svg",
     },
     {
       id: 2,
       name: "CSS3",
-      path: "public/assets/logos/css3.svg",
+      path: "assets/logos/css3.svg",
     },
     {
       id: 3,
       name: "JavaScript",
-      path: "public/assets/logos/javascript.svg",
+      path: "assets/logos/javascript.svg",
     }
   ],
 },
 {
-  id: 5,
+  id: 6,
   title: "Cyberfiction Inspired Scroll-Driven Canvas Experience",
   description:
     "A cinematic scroll-based web experience inspired by Cyberfiction, featuring a 300-frame image sequence rendered on HTML5 canvas and synchronized with smooth scrolling animations.",
@@ -195,28 +195,28 @@ export const myProjects = [
   ],
   href: " https://pooja-athane.github.io/project-2-landinng-page/",
   logo: "",
-  image: "public/assets/projects/cyberification.png",
+  image: "assets/projects/cyberification.png",
  
    tags: [
     {
       id: 1,
       name: "HTML5",
-      path: "public/assets/logos/html5.svg",
+      path: "assets/logos/html5.svg",
     },
     {
       id: 2,
       name: "CSS3",
-      path: "public/assets/logos/css3.svg",
+      path: "assets/logos/css3.svg",
     },
     {
       id: 3,
       name: "JavaScript",
-      path: "public/assets/logos/javascript.svg",
+      path: "assets/logos/javascript.svg",
     },
     {
       id: 4,
       name: "GSAP",
-      path: "public/assets/logos/gsap.svg",
+      path: "assets/logos/gsap.svg",
     },
   ],
   
@@ -315,16 +315,16 @@ export const mySocials = [
   {
     name: "WhatsApp",
     href: "",
-    icon: "public/assets/socials/whatsApp.svg",
+    icon: "assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/poojaathane/",
-    icon: "public/assets/socials/linkedIn.svg",
+    icon: "assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
     href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "public/assets/socials/instagram.svg",
+    icon: "assets/socials/instagram.svg",
   },
 ];
