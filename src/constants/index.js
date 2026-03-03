@@ -10,7 +10,7 @@ export const myProjects = [
       "Created reusable components structure.",
       "Fully responsive design."
     ],
-    href: " https://pooja-athane.github.io/Portfolio_Website/",
+    href: "https://gmail-clone-woad-two.vercel.app",
     logo: "",
     image: "public/assets/projects/gmail.png",
     tags: [
@@ -43,7 +43,7 @@ export const myProjects = [
       "Added smooth animations with GSAP.",
       "Deployed using Vercel."
     ],
-    href: "",
+    href: "https://portfolio-website-eight-rho-30.vercel.app",
     logo: "",
     image: "public/assets/projects/Portfolio.png",
     tags: [
